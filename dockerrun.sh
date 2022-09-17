@@ -1,6 +1,6 @@
 #!/bin/sh
   
-cat dockerpassword | docker login --username lepakshich --password-stdin
+cat $HOME/dockerpassword | docker login --username lepakshich --password-stdin
 rv=$?
 echo "login rv, $rv"
 
