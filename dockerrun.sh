@@ -10,7 +10,7 @@ rv=$?
 echo "rm rv, $rv"
 set -e
 
-docker run -d -p 80:80 --name edureka_cert1 lepakshich/test
+docker run -d -p 80:80 --name edureka_cert1 lepakshich/test:latest
 echo "run rv, $rv"
 rv=$?
 
