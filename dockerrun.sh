@@ -10,7 +10,7 @@ rv=$?
 echo "rm rv, $rv"
 set -e
 
-docker pull lepakshich/test1:latest
+docker pull lepakshich/test:latest
 rv=$?
 echo "pull rv, $rv"
 
